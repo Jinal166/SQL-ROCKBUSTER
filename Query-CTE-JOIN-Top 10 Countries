@@ -1,4 +1,4 @@
-# Top 10 country in terms of customer numbers
+# Top 10 country for Rockbuster in terms of customer numbers.
 
 SELECT D.country,COUNT(customer_id) AS "number_of_customers"
 FROM customer A
